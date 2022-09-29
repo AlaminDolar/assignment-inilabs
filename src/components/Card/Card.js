@@ -2,7 +2,7 @@ import React from 'react';
 import { FaWifi } from 'react-icons/fa';
 
 
-const Card = ({ bgClass }) => {
+const Card = ({ bgClass, pClass }) => {
     return (
         <div className={`shadow-xl  card   ${bgClass}`}>
 
@@ -14,7 +14,7 @@ const Card = ({ bgClass }) => {
                         <p className='text-white rotate-90'><FaWifi></FaWifi></p>
                     </div>
                 </div>
-                <p className="mt-[57px] text-white font-sans ">
+                <p className={`${pClass} text-white font-sans `}>
                     4642  3489  9867  7632
                 </p>
                 <div className="pt-[26.55px] pr-6">

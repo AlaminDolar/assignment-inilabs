@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FaApple, FaArrowRight, FaCheck, FaHome, FaIdCard, FaSave, FaUser, FaUserCheck } from 'react-icons/fa';
+import { FaAmazon, FaApple, FaArrowRight, FaCheck, FaGooglePlay, FaHome, FaIdCard, FaSave, FaTwitter, FaUser, FaUserCheck } from 'react-icons/fa';
 import Card from '../../Card/Card';
 
 const Page2 = () => {
@@ -35,7 +35,7 @@ const Page2 = () => {
                                 </div>
 
                                 <div>
-                                    <Card bgClass='w-[310px]   bg-gradient-to-r from-info to-success'></Card>
+                                    <Card pClass='mt-[20px]' bgClass='w-[310px] h-[186px]    bg-gradient-to-r from-info to-success'></Card>
 
                                 </div>
                                 <div>
@@ -55,9 +55,9 @@ const Page2 = () => {
                                     </div>
                                 </div>
 
-                                <div className='flex items-center gap-16 p-3 mt-2 rounded bg-secondary'>
+                                <div className='flex items-center w-[290px] gap-16 p-3 mt-2 rounded bg-secondary'>
                                     <div className='flex items-center gap-3 '>
-                                        <FaApple className='twxt-white bg-primary h-[40px] w-[40px] rounded'></FaApple>
+                                        <FaApple className=' bg-primary h-[40px] w-[40px] rounded'></FaApple>
                                         <div>
                                             <h2 className='font-sans text-black'>Apple</h2>
                                             <p className='text-sm text-black'>Electronic</p>
@@ -68,47 +68,47 @@ const Page2 = () => {
                                     </div>
                                 </div>
 
-                                <div className='flex items-center gap-16 p-3 mt-2 rounded bg-secondary'>
+                                <div className='flex items-center w-[290px] gap-16 p-3 mt-2 rounded bg-secondary'>
                                     <div className='flex items-center gap-3 '>
-                                        <FaApple className='twxt-white bg-primary h-[40px] w-[40px] rounded'></FaApple>
+                                        <FaGooglePlay className=' bg-primary h-[40px] w-[40px] rounded'></FaGooglePlay>
                                         <div>
-                                            <h2 className='font-sans text-black'>Apple</h2>
-                                            <p className='text-sm text-black'>Electronic</p>
+                                            <h2 className='font-sans text-black'>Google </h2>
+                                            <p className='text-sm text-black'>Apps</p>
                                         </div>
                                     </div>
                                     <div>
-                                        <h1 className='text-xl text-black'>-799$</h1>
+                                        <h1 className='text-xl text-black'>-49$</h1>
                                     </div>
                                 </div>
 
-                                <div className='flex items-center gap-16 p-3 mt-2 rounded bg-secondary'>
-                                    <div className='flex items-center gap-3 '>
-                                        <FaApple className='twxt-white bg-primary h-[40px] w-[40px] rounded'></FaApple>
+                                <div className='flex w-[290px] items-center gap-16 p-3 mt-2 rounded bg-secondary'>
+                                    <div className='flex  items-center gap-3 '>
+                                        <FaAmazon className='bg-primary h-[40px] w-[40px] rounded'></FaAmazon>
                                         <div>
-                                            <h2 className='font-sans text-black'>Apple</h2>
-                                            <p className='text-sm text-black'>Electronic</p>
+                                            <h2 className='font-sans text-black'>Amazon</h2>
+                                            <p className='text-sm text-black'>Shopping</p>
                                         </div>
                                     </div>
                                     <div>
-                                        <h1 className='text-xl text-black'>-799$</h1>
+                                        <h1 className='text-xl text-black'>-59$</h1>
                                     </div>
                                 </div>
 
-                                <div className='flex items-center gap-16 p-3 mt-2 rounded bg-secondary'>
-                                    <div className='flex items-center gap-3 '>
-                                        <FaApple className='twxt-white bg-primary h-[40px] w-[40px] rounded'></FaApple>
+                                <div className='flex w-[290px] items-center gap-16 p-3 mt-2 rounded bg-secondary'>
+                                    <div className='flex  items-center gap-3 '>
+                                        <FaTwitter className='bg-primary h-[40px] w-[40px] rounded'></FaTwitter>
                                         <div>
-                                            <h2 className='font-sans text-black'>Apple</h2>
-                                            <p className='text-sm text-black'>Electronic</p>
+                                            <h2 className='font-sans text-black'>Twitter</h2>
+                                            <p className='text-sm text-black'>Ads</p>
                                         </div>
                                     </div>
                                     <div>
-                                        <h1 className='text-xl text-black'>-799$</h1>
+                                        <h1 className='text-xl text-black'>-9$</h1>
                                     </div>
                                 </div>
 
 
-                                <div className='flex items-center justify-center p-6 text-center gap-7'>
+                                <div className='flex items-center  pt-11 text-center gap-7'>
                                     <div className='text-center'>
                                         <FaHome ></FaHome>
                                         <p className='text-black '>Home</p>

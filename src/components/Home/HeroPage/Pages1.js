@@ -29,20 +29,20 @@ const Pages1 = () => {
                 <div className='pt-72 bg-secondary'>
                     <div className='grid grid-cols-5 mt-62  pr-32 '>
                         <div className='translate-y-96 '>
-                            <Card bgClass=' rotate-90 w-96 bg-gradient-to-r from-warning to-error'></Card>
+                            <Card pClass='mt-[57px]' bgClass=' rotate-90 w-96 bg-gradient-to-r from-warning to-error'></Card>
                         </div>
                         <div className='translate-y-72 '>
-                            <Card bgClass=' w-96 rotate-90 bg-gradient-to-r from-info to-success'></Card>
+                            <Card pClass='mt-[57px]' bgClass=' w-96 rotate-90 bg-gradient-to-r from-info to-success'></Card>
                         </div >
 
                         <div className='translate-y-60'>
-                            <Card bgClass='rotate-90 w-96 bg-gradient-to-r from-accent to-neutral'></Card>
+                            <Card pClass='mt-[57px]' bgClass='rotate-90 w-96 bg-gradient-to-r from-accent to-neutral'></Card>
                         </div>
                         <div className='translate-y-72'>
-                            <Card bgClass='rotate-90 w-96 bg-gradient-to-r from-info to-success'></Card>
+                            <Card pClass='mt-[57px]' bgClass='rotate-90 w-96 bg-gradient-to-r from-info to-success'></Card>
                         </div >
                         <div className='translate-y-96'>
-                            <Card bgClass='rotate-90 w-96 bg-gradient-to-r from-warning to-error'></Card>
+                            <Card pClass='mt-[57px]' bgClass='rotate-90 w-96 bg-gradient-to-r from-warning to-error'></Card>
                         </div>
 
                     </div>

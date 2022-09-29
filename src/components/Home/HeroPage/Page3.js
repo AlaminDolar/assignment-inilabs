@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaApple, FaArrowRight, FaCheck, FaHome, FaIdCard, FaSave, FaUser, FaUserCheck } from 'react-icons/fa';
+import { FaArrowLeft, FaCheck, FaHome, FaIdCard, FaInfoCircle, FaQuestionCircle, FaSave, FaTools, FaUser, FaUserLock } from 'react-icons/fa';
 import Card from '../../Card/Card';
 
 const Page3 = () => {
@@ -7,8 +7,9 @@ const Page3 = () => {
         <div className="min-h-screen bg-white hero">
             <div className='flex gap-11'>
                 <div className='w-[538px] h-[140px] my-3'>
-                    <h5 className='my-3 font-sans text-xl text-black text-start pt-28'>Transactions</h5>
-                    <h2 className='my-3 font-sans text-6xl text-black text-start '>Send & receive money instantly</h2>
+                    <h5 className='my-3 font-sans text-xl text-black text-start pt-28'>Cards</h5>
+                    <h2 className='my-3 font-sans text-7xl text-black text-start '>Manage
+                        your cards</h2>
                     <p className='my-3 text-xl font-inter text-start'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <div className='flex items-center gap-3'>
                         <FaCheck className='w-5 h-5 rounded-full text-primary bg-secondary'></FaCheck>
@@ -28,86 +29,43 @@ const Page3 = () => {
                         <div className="camera"></div>
                         <div className="display ">
                             <div className="artboard artboard-demo phone-4">
-                                <div className='flex items-center gap-3'>
-                                    <div> <h5 className='text-sm'>Current balance</h5></div>
-                                    <div><h5 className='text-xl font-bold'>$ 4.658,50</h5></div>
+                                <div className='flex  items-center gap-28 pt-6'>
+                                    <FaArrowLeft></FaArrowLeft>
+                                    <h2 className='text-xl text-black'>Cards</h2>
+                                    <FaQuestionCircle></FaQuestionCircle>
                                 </div>
 
                                 <div>
-                                    <Card bgClass='w-[310px]   bg-gradient-to-r from-info to-success'></Card>
+                                    <Card pClass='mt-[20px]' bgClass='w-[310px] h-[186px]    bg-gradient-to-r from-info to-success'></Card>
 
                                 </div>
-                                <div>
-                                    <div className='flex items-center gap-3 my-2'>
-                                        <FaUserCheck className='w-6 h-6 rounded-full bg-secondary text-primary'></FaUserCheck>
-                                        <p className='text-sm'>Send money</p>
-                                        <FaUserCheck className='w-6 h-6 rounded-full bg-secondary text-primary'></FaUserCheck>
-                                        <p className='text-sm'>Receive money</p>
-                                    </div>
-                                    <div className='flex items-center justify-between '>
-                                        <h6 className='text-xl text-black'>Transactions</h6>
-                                        <div className='flex items-center justify-center gap-3 '>
-                                            <button className='font-sans text-xl text-primary'>View all</button>
-                                            <p className='text-primary'><FaArrowRight></FaArrowRight></p>
+                                <div className='flex gap-11 pt-3'>
 
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className='flex items-center gap-16 p-3 mt-2 rounded bg-secondary'>
-                                    <div className='flex items-center gap-3 '>
-                                        <FaApple className='twxt-white bg-primary h-[40px] w-[40px] rounded'></FaApple>
-                                        <div>
-                                            <h2 className='font-sans text-black'>Apple</h2>
-                                            <p className='text-sm text-black'>Electronic</p>
-                                        </div>
+                                    <div>
+                                        <p><FaInfoCircle className='text-primary bg-secondary h-[40px] w-[40px] rounded-full'></FaInfoCircle></p>
+                                        <p>Details</p>
                                     </div>
                                     <div>
-                                        <h1 className='text-xl text-black'>-799$</h1>
-                                    </div>
-                                </div>
-
-                                <div className='flex items-center gap-16 p-3 mt-2 rounded bg-secondary'>
-                                    <div className='flex items-center gap-3 '>
-                                        <FaApple className='twxt-white bg-primary h-[40px] w-[40px] rounded'></FaApple>
-                                        <div>
-                                            <h2 className='font-sans text-black'>Apple</h2>
-                                            <p className='text-sm text-black'>Electronic</p>
-                                        </div>
+                                        <p><FaUserLock className='text-primary bg-secondary h-[40px] w-[40px] rounded-full'></FaUserLock></p>
+                                        <p>Lock Card</p>
                                     </div>
                                     <div>
-                                        <h1 className='text-xl text-black'>-799$</h1>
+                                        <p><FaTools className='text-primary bg-secondary h-[40px] w-[40px] rounded-full'></FaTools></p>
+                                        <p>Setting</p>
                                     </div>
                                 </div>
 
-                                <div className='flex items-center gap-16 p-3 mt-2 rounded bg-secondary'>
-                                    <div className='flex items-center gap-3 '>
-                                        <FaApple className='twxt-white bg-primary h-[40px] w-[40px] rounded'></FaApple>
-                                        <div>
-                                            <h2 className='font-sans text-black'>Apple</h2>
-                                            <p className='text-sm text-black'>Electronic</p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h1 className='text-xl text-black'>-799$</h1>
-                                    </div>
-                                </div>
-
-                                <div className='flex items-center gap-16 p-3 mt-2 rounded bg-secondary'>
-                                    <div className='flex items-center gap-3 '>
-                                        <FaApple className='twxt-white bg-primary h-[40px] w-[40px] rounded'></FaApple>
-                                        <div>
-                                            <h2 className='font-sans text-black'>Apple</h2>
-                                            <p className='text-sm text-black'>Electronic</p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h1 className='text-xl text-black'>-799$</h1>
+                                <h1 className='text-xl pt-3 text-black text-start'>All Card</h1>
+                                <div className=''>
+                                    <Card pClass='mt-[20px]' bgClass='w-[310px] h-[186px] bg-gradient-to-r  from-warning to-error'></Card>
+                                    <div className='relative'>
+                                        <Card pClass='mt-[20px]' bgClass='w-[310px] h-[186px] bg-gradient-to-r from-accent to-neutral'></Card>
                                     </div>
                                 </div>
 
 
-                                <div className='flex items-center justify-center p-6 text-center gap-7'>
+
+                                <div className='flex pt-11 items-center justify-center  text-center gap-7'>
                                     <div className='text-center'>
                                         <FaHome ></FaHome>
                                         <p className='text-black '>Home</p>
